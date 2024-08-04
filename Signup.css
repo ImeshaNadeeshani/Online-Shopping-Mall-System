@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body{
+    background-image: linear-gradient(#22222255, #2222222f), url("image/shop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+p{
+    color: #222;
+}
+
+.form{
+    background: transparent;
+    position: relative;
+    border: 2px solid rgba(255, 255, 255, 5);
+    border-radius: 2%;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    margin: auto;
+    margin-top: 150px;
+    padding: 15px;
+    padding-top: 30px;
+    height:620px;
+    width:400px;
+    font-family: Spartan;
+    text-align: center;
+    border-radius: 1%;
+}
+
+.label{
+    width: 320px;
+    height: 25px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form input{
+    font-size: 15px;
+}
+
+.signup{
+    border: none;
+    color: aliceblue;
+    width: 350px;
+    height: 35px;
+    cursor:pointer;
+    background-color: #158093;
+    font-size: 15px;
+    border-radius: 20px;
+    border-color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.signup:hover{
+    background-color: white;
+    color: #158093;
+    border: 1px solid #158093;
+    transition-duration: 0.4s;
+}
+
+.checkbox{
+    font-size: 14px;
+    text-align: left;
+    padding-left: 35px;
+}
+
+.checkbox p{
+    margin-top: -20px;
+}
+
+.box{
+    cursor: pointer;
+}
+
+.login{
+    font-size: 12.5px;
+    margin-left: -12px;
+}
+
+.terms{
+    color: black;
+    text-decoration: none;
+}
+
+.terms:hover{
+    text-decoration: underline;
+}
+
+.loginhere{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.loginhere:hover{
+    text-decoration: underline;
+}
+
+.icon{
+    position: absolute;
+    right: 0px;
+    margin-top: 5px;
+    margin-right: 45px;
+}
+
+#customer{
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#seller{
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
+}

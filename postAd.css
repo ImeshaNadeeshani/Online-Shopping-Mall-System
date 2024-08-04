@@ -1,0 +1,98 @@
+#section{
+    margin-top: 102px;
+}
+
+#topic{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-image: linear-gradient(#222222ab, #22222277), url(image/postad.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#topic h1{
+    font-size: 80px;
+    color: #fff;
+    padding-top: 100px;
+}
+
+#inputField{
+    width: 50%;
+    margin: 80px 0 0 25%;
+    border: 1px solid #222;
+    border-radius: 20px;
+    padding: 100px;
+}
+
+#inputField input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    border: 0.5px solid #7a7979;
+    outline: none;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+#inputField p{
+    margin: 0 0 40px 0;
+}
+
+#inputField input:hover{
+    border: 2px solid rgb(41, 28, 158);
+}
+
+#inputField input:focus{
+    border: 2px solid rgb(39, 27, 150);
+}
+
+#inputField #username{
+    width: 100%;
+}
+
+#inputField #country{
+    width: 33%;
+}
+
+#inputField #city{
+    width: 33%;
+}
+
+#inputField #zip{
+    width: 32%;
+}
+
+#inputField #description{
+    height: 100px;
+}
+
+#section button{
+    position: absolute;
+    width: 120px;
+    height: 42px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+#brands{
+    height: 30px;
+    border-radius: 5px;
+}
+
+#submit{
+    margin: -70px 0 0 700px;
+    background-color: rgb(27, 146, 167);
+    color: #fff;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: #fff;
+    color: rgb(27, 146, 167);
+    border: 1px solid rgb(27, 146, 167);
+    transition-duration: 0.4s;
+}

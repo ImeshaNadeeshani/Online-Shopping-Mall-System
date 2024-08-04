@@ -1,0 +1,112 @@
+#section div{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#d1{
+    display: none;
+}
+
+#d2{
+    display: none;
+}
+
+#d4{
+    display: none;
+}
+
+#d4{
+    display: none;
+}
+
+#btnField{
+    width: 80%;
+    margin-top: 150px;
+}
+
+#btnField button{
+    background-color: blueviolet;
+    color: #fff;
+    margin-left: 50px;
+    transition-duration: 0.4s;
+}
+
+#btnField button:hover{
+    background-color: #fff;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+}
+
+#p{
+    width: 200px;
+    height: 200px;
+    margin-left: 250px;
+}
+
+#price{
+    margin-left: 200px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+button{
+    width: 120px;
+    height: 42px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+#qnt{
+    margin-left: 200px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 3px solid blue;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+#remove{
+    margin-left: 200px;
+    margin-top: 50px;
+    background-color: rgb(209, 14, 14);
+    color: #fff;
+    transition-duration: 0.4s;
+}
+
+#remove:hover{
+    background-color: #fff;
+    color: rgb(209, 14, 14);
+    border: 1px solid rgb(209, 14, 14);
+    transition-duration: 0.4s;
+}
+
+hr{
+    width: 970px;
+    height: 1px;
+    margin-left: 300px;
+    background-color: black;
+    border: none;
+}
+#total{
+    margin: -50px 0 0 655px;
+    font-weight: bold;
+}
+
+#check{
+    margin: -50px 0 0 800px;
+    background-color: rgb(12, 187, 12);
+    color: #fff;
+    transition-duration: 0.4s;
+}
+
+#check:hover{
+    background-color: #fff;
+    color: rgb(12, 187, 12);
+    border: 1px solid rgb(12, 187, 12);
+    transition-duration: 0.4s;
+}

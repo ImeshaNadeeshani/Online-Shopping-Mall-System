@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot password</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="forgotpw.css">
+</head>
+
+<body>
+
+    <section id="header">
+
+        <a href="home.php"><img src="image/logo.png" alt="" id="logo"></a>
+
+        <div id="nav">
+
+            <a href="home.php"><button id="nbtn">Home</button></a>
+            <a href="contactus.html"><button id="nbtn">Contact Us</button></a>
+            <a href="aboutus.html"><button id="nbtn">About Us</button></a>
+            <a href="Login.html"><button id="nbtn">Login</button></a>
+            <a href="shoppincart.php"><img src="image/cart.png" alt=""></a>
+        </div>
+    </section>
+
+    <section id="section">
+
+        <h1>Reset your password</h1>
+
+        <form action="forgotpw.php" method="post">
+            <div id="inputField">
+
+                <input type="text" placeholder="Enter username" id="username" name="username" required>
+                <input type="email" placeholder="Enter your email" id="email" name="email" required>
+                <input type="password" placeholder="New password" id="password" name="password" required>
+                <input type="password" placeholder="Confirm password" id="cpw" name="confirmpw" required>
+                
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="footer">
+
+        <div id="links">
+
+            <p>Quick links</p>
+            <a href="home.php">Home</a><br>
+            <a href="contactus.html">Contact us</a><br>
+            <a href="Login.html">Login</a><br>
+            <a href="privacy.html">Privacy & Policy</a>
+        </div>
+
+        <a href="home.php"><img src="image/logo.png" alt="" id="logof"></a>
+
+        <div id="social">
+
+            <img src="image/footer/fb.png" alt="">
+            <img src="image/footer/insta.png" alt="">
+            <img src="image/footer/twitter.png" alt="">
+            <img src="image/footer/youtube.png" alt="">
+            <img src="image/footer/email.png" alt="">
+        </div>
+
+        <div id="app">
+
+            <p>Download App</p>
+            <img src="image/footer/app.png" alt="">
+        </div>
+
+        <div id="copyrights">
+
+            &copy;<span> 2023 MLB_14.02_08</span>
+        </div>
+    </section>
+</body>
+
+</html>

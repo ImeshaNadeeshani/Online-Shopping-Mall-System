@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <title>Payment Details</title>
+    <link rel="Stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="header">
+
+        <a href="home.php"><img src="image/logo.png" alt="" id="logo"></a>
+
+        <div id="nav">
+
+            <a href="home.php"><button id="nbtn">Home</button></a>
+            <a href="contactus.html"><button id="nbtn">Contact Us</button></a>
+            <a href="aboutus.html"><button id="nbtn">About Us</button></a>
+            <a href="Login.html"><button id="nbtn">Login</button></a>
+            <a href="shoppincart.php"><img src="image/cart.png" alt=""></a>
+        </div>
+    </section>
+
+    <img src="image/credit card.png" id="creditcardjpg">
+
+    <div id="whitebox">
+
+        <h1 id="h1">Payment Details</h1><br><br>
+
+        <form action="check.php" method="post">
+
+            <input type="text" placeholder="CARD NUMBER" id="cardnumberbox" name="cardno"><br><br>
+
+            <img src="image/icon.png" id="icon1">
+
+            <input type="text" placeholder="12" id="month" name="month">
+            <input type="text" placeholder="2025" id="year" name="year">
+            <input type="text" placeholder="CVV" id="cvv" name="cvv"><br><br>
+            <img src="image/icon2.png" id="icon2">
+            <input type="text" placeholder="Street address" id="streetaddress" name="address"><br><br>
+
+            <select id="country">
+                <option>United states</option>
+                <option>Sri Lanka</option>
+                <option>India</option>
+            </select><br><br>
+
+            <input type="text" placeholder="City" id="city">
+            <select id="state">
+                <option hidden>State</option>
+                <option>Galle</option>
+                <option>Gampaha</option>
+                <option>Kalutara</option>
+            </select>
+
+            <input type="text" placeholder="Zip code" id="zipcode"><br><br>
+
+            <button id="confirmandpay" type="submit">CONFIRM AND PAY</button>
+        </form>
+        <a href="shoppincart.php"><button id="cancel">CANCEL</button></a>
+    </div>
+
+    <section id="footer">
+
+        <div id="links">
+
+            <p>Quick links</p>
+            <a href="home.php">Home</a><br>
+            <a href="contactus.html">Contact us</a><br>
+            <a href="Login.html">Login</a><br>
+            <a href="privacy.html">Privacy & Policy</a>
+        </div>
+
+        <a href="home.php"><img src="image/logo.png" alt="" id="logof"></a>
+
+        <div id="social">
+
+            <img src="image/footer/fb.png" alt="">
+            <img src="image/footer/insta.png" alt="">
+            <img src="image/footer/twitter.png" alt="">
+            <img src="image/footer/youtube.png" alt="">
+            <img src="image/footer/email.png" alt="">
+        </div>
+
+        <div id="app">
+
+            <p>Download App</p>
+            <img src="image/footer/app.png" alt="">
+        </div>
+
+        <div id="copyrights">
+
+            &copy;<span> 2023 MLB_14.02_08</span>
+        </div>
+    </section>
+</body>
+
+</html>
